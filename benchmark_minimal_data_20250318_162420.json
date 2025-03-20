@@ -1,0 +1,111 @@
+{
+  "tech_data": {
+    "sector": "Tech",
+    "standards": {
+      "prix": {
+        "multiple_ebitda_min": 10.0,
+        "multiple_ebitda_max": 20.0,
+        "multiple_ebitda_median": 15.0,
+        "ajustement_typique": "Ajustements pour le fonds de roulement, la dette nette et les CAPEX"
+      },
+      "garanties": {
+        "montant_typique": "10% du prix",
+        "duree_min": "12 mois",
+        "duree_max": "24 mois",
+        "plafond_typique": "20% du prix"
+      },
+      "non_concurrence": {
+        "duree_typique": "36 mois",
+        "portee": "Secteur et zones géographiques clés de la cible",
+        "compensation_typique": "20% à 40% de la rémunération"
+      },
+      "indemnisation": {
+        "franchise_typique": "1%",
+        "plafond_typique": "20%",
+        "duree_typique": "18 mois"
+      }
+    },
+    "commentaires": [
+      "Les multiples sont élevés en raison des fortes perspectives de croissance du secteur tech",
+      "Une importance particulière est accordée à la propriété intellectuelle et aux clauses de non-concurrence pour protéger les actifs clés",
+      "La volatilité et l'évolution rapide du secteur nécessitent des mécanismes d'ajustement de prix et des garanties solides",
+      "Les fondateurs et employés clés sont souvent liés par des clauses de rétention et intéressement long terme"
+    ]
+  },
+  "transaction": {
+    "sector": "tech",
+    "prix": {
+      "multiple_ebitda": 9.5,
+      "prix_par_action": 170,
+      "ajustement": 1.2
+    },
+    "garanties": {
+      "montant": "18% du prix",
+      "durée": "30 mois",
+      "plafond": "25%"
+    },
+    "non_concurrence": {
+      "durée": "36 mois",
+      "portée": "Secteur d'activité et zone géographique",
+      "compensation": "75%"
+    },
+    "indemnisation": {
+      "franchise": "1%",
+      "plafond": "15%",
+      "durée": "36 mois"
+    }
+  },
+  "analysis": {
+    "analyse_globale": {
+      "score": 0.75,
+      "resume": "La transaction est globalement alignée avec les standards du secteur tech, avec quelques écarts notables sur le prix et les garanties. Les clauses de non-concurrence et d'indemnisation sont conformes aux pratiques habituelles.",
+      "points_forts": [
+        "Clauses de non-concurrence conformes en termes de durée, portée et compensation",
+        "Franchise et plafond d'indemnisation dans les normes du secteur"
+      ],
+      "points_attention": [
+        "Multiple d'EBITDA inférieur aux standards du secteur, pouvant refléter une valorisation basse",
+        "Montant et durée de garanties supérieurs aux pratiques typiques, augmentant l'exposition du vendeur"
+      ]
+    },
+    "analyse_detaillee": {
+      "prix": {
+        "evaluation": "Le multiple d'EBITDA de 9.5x est inférieur de 37% à la médiane du secteur tech de 15x. Cela peut s'expliquer par une croissance ou rentabilité plus faible que les comparables. Le mécanisme d'ajustement est standard.",
+        "ecart_standard": "-37%",
+        "recommandations": [
+          "Vérifier la justification du multiple au regard des fondamentaux et perspectives de la cible",
+          "Valider que les ajustements de prix couvrent bien les variations de BFR, dette et CAPEX"
+        ]
+      },
+      "garanties": {
+        "evaluation": "Le montant de garanties à 18% et la durée de 30 mois excèdent les standards du secteur, respectivement de 80% et 25%. Le plafond de 25% reste proche des 20% usuels.",
+        "ecart_standard": "+80% en montant, +25% en durée",
+        "recommandations": [
+          "Revoir le montant de garanties à la baisse vers 10-15% du prix pour limiter l'exposition",
+          "Viser une durée entre 12 et 24 mois, suffisante pour couvrir les risques identifiés"
+        ]
+      },
+      "non_concurrence": {
+        "evaluation": "Les clauses de non-concurrence sont en ligne avec les pratiques du secteur tech en termes de durée (36 mois), périmètre (activité et géographie de la cible) et compensation (75% de rémunération).",
+        "ecart_standard": "Conforme",
+        "recommandations": [
+          "S'assurer que la portée couvre bien les zones géographiques et activités clés du business",
+          "Sécuriser l'engagement des personnes clés par des clauses spécifiques si nécessaire"
+        ]
+      },
+      "indemnisation": {
+        "evaluation": "La franchise, le plafond et la durée des clauses d'indemnisation sont conformes aux standards du secteur, permettant de couvrir les risques principaux sur une période suffisante post-closing.",
+        "ecart_standard": "Conforme",
+        "recommandations": [
+          "Vérifier l'adéquation des seuils aux risques identifiés durant la due diligence",
+          "Prévoir des clauses de minimis et panier pour éviter la multiplication de petites réclamations"
+        ]
+      }
+    },
+    "recommandations_globales": [
+      "Renégocier le prix sur la base d'un multiple d'EBITDA plus proche des standards sectoriels, en fonction du profil de croissance et de rentabilité de la société",
+      "Revoir le package de garanties pour limiter le montant (10-15%) et la durée (12-24 mois), tout en maintenant une couverture satisfaisante des risques",
+      "Préciser les clauses de non-concurrence (personnes clés) et d'indemnisation (sous-jacents) pour renforcer la protection de l'acheteur"
+    ]
+  }
+}
